@@ -3,7 +3,7 @@
 import { useState, useRef } from "react"
 import Image from "next/image"
 import { ChevronLeft, ChevronRight } from "lucide-react"
-import type { Movie } from "@/types/movie"
+import type { Movie } from "../types/movie"
 import { Button } from "@/components/ui/button"
 
 interface CategoryRowProps {

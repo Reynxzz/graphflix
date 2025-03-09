@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { useMockData } from "@/hooks/use-mock-data"
+import { useMockData } from "../hooks/use-mock-data"
 import { Button } from "@/components/ui/button"
 import { ZoomIn, ZoomOut, RefreshCw } from "lucide-react"
 import dynamic from "next/dynamic"

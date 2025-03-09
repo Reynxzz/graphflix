@@ -3,13 +3,13 @@
 import React from "react"
 
 import { useEffect, useRef, useState } from "react"
-import { useMockData } from "@/hooks/use-mock-data"
+import { useMockData } from "../hooks/use-mock-data"
 import { Button } from "@/components/ui/button"
 import { Slider } from "@/components/ui/slider"
 import { Badge } from "@/components/ui/badge"
 import { RefreshCw, Filter, Wand2, Compass, Sparkles, Clock, Layers, X, Send, Loader2 } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
-import type { Movie } from "@/types/movie"
+import type { Movie } from "../types/movie"
 import Image from "next/image"
 import { Input } from "@/components/ui/input"
 

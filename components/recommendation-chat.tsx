@@ -8,8 +8,8 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 import { Avatar } from "@/components/ui/avatar"
 import { Badge } from "@/components/ui/badge"
 import { motion, AnimatePresence } from "framer-motion"
-import { useMockData } from "@/hooks/use-mock-data"
-import type { Movie } from "@/types/movie"
+import { useMockData } from "../hooks/use-mock-data"
+import type { Movie } from "../types/movie"
 
 interface RecommendationChatProps {
   onSelectMovie: (movie: Movie) => void

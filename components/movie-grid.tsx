@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import type { Movie } from "@/types/movie"
+import type { Movie } from "../types/movie"
 
 interface MovieGridProps {
   movies: Movie[]

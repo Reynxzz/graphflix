@@ -7,8 +7,8 @@ import { Input } from "@/components/ui/input"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Badge } from "@/components/ui/badge"
 import { motion, AnimatePresence } from "framer-motion"
-import { useMockData } from "@/hooks/use-mock-data"
-import type { Movie } from "@/types/movie"
+import { useMockData } from "../hooks/use-mock-data"
+import type { Movie } from "../types/movie"
 
 interface SidebarRecommendationChatProps {
   currentMovieId: string

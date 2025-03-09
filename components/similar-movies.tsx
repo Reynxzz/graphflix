@@ -1,9 +1,9 @@
 "use client"
 
-import type { Movie } from "@/types/movie"
+import type { Movie } from "../types/movie"
 import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
-import { useMockData } from "@/hooks/use-mock-data"
+import { useMockData } from "../hooks/use-mock-data"
 
 interface SimilarMoviesProps {
   movies: Array<Movie & { similarity: number }>
