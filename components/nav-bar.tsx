@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { RecommendationChat } from "@/components/recommendation-chat"
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
-import type { Movie } from "@/types/movie"
+import type { Movie } from "../types/movie"
 
 interface NavBarProps {
   onSelectMovie?: (movie: Movie) => void
@@ -34,7 +34,7 @@ export function NavBar({ onSelectMovie }: NavBarProps) {
       <div className="flex items-center justify-between px-4 md:px-8 py-4">
         <div className="flex items-center gap-8">
           <Link href="/" className="text-red-600 font-bold text-2xl">
-            GraphFlix
+            Graphflix
           </Link>
 
           <nav className="hidden md:flex items-center space-x-6">
