@@ -10,8 +10,8 @@ import { ImmersiveGraph } from "@/components/immersive-graph"
 import { SimilarMovies } from "@/components/similar-movies"
 import { RecommendationChat } from "@/components/recommendation-chat"
 import { SidebarRecommendationChat } from "@/components/sidebar-recommendation-chat"
-import type { Movie } from "@/types/movie"
-import { useMockData } from "@/hooks/use-mock-data"
+import type { Movie } from "../types/movie"
+import { useMockData } from "../hooks/use-mock-data"
 
 interface MovieDetailProps {
   movie: Movie
